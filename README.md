@@ -68,9 +68,9 @@ cd restaurant-api
 2. Create virtual environment
 
 python -m venv venv
-1.source venv/bin/activate     # Linux/Mac
 
-2.venv\Scripts\activate        # Windows
+=>source venv/bin/activate     # Linux/Mac
+=>venv\Scripts\activate        # Windows
 
 3. Install dependencies
 
