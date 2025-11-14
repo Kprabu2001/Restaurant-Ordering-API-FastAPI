@@ -65,20 +65,21 @@ Installation & Setup
 git clone https://github.com/yourusername/restaurant-api.git
 cd restaurant-api
 
-3. Create virtual environment
+2. Create virtual environment
 
 python -m venv venv
-source venv/bin/activate     # Linux/Mac
-venv\Scripts\activate        # Windows
+1.source venv/bin/activate     # Linux/Mac
 
-4. Install dependencies
+2.venv\Scripts\activate        # Windows
+
+3. Install dependencies
 
 pip install -r requirements.txt
 
-6. Create .env
+4. Create .env
 
 DATABASE_URL=sqlite:///./app.db
 
-8. Run server
+5. Run server
 
 uvicorn main:app --reload
